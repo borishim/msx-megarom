@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MSX megarom cartridge with TTL components")
+    (date "2022-04-21")
+    (rev "0.1")
+    (comment 1 "Designed by Sangwoo Shim")
+    (comment 2 "https://github.com/borishim/msx-megarom")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS157" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 19.05 0)
